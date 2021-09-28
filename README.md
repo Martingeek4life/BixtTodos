@@ -1,30 +1,26 @@
-# todolist
+# BixtTodos
+a Bixterprise tools for manage yours projects base on vuejs 2
 
-> A Vue.js project
+![alt text](./todos.png)
 
-## Build Setup
+# Prerequis
+nodejs already installed
+yarn and npm already installed
 
-``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn start
 
 # build for production with minification
-npm run build
+yarn build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+yarn build --report
 
 # run unit tests
-npm run unit
+yarn run unit
 
 # run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+yarn run e2e
