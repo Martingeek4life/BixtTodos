@@ -5,7 +5,7 @@
     .input {
         background-color: transparent;
         padding: 8px;
-        font-size: 18px;
+        font-size: 20px;
         border: solid 1px rgb(200,200,200);
         color: rgb(100,100,100);
         border-radius: 0.3em;
