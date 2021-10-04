@@ -1,17 +1,18 @@
 <template>
     <button class ="buttonI1">
-        <div :style="{ backgroundImage: 'url(https://commons.wikimedia.org/wiki/File:Vue.js_Logo_2.svg)' }" ></div>
+        <div :style = "{ backgroundImage: 'url(' + require(img_src + '') + ')' }"></div>
         <span>{{ message }}</span>
     </button>
 </template>
 <style>
     .buttonI1 {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content:left;
+        align-items:center;
 
         box-sizing:border-box;
         padding: 9px;
+        padding-left: 50px;
         width: 320px;
         background-color:white;
         border-radius: 0.2em;
@@ -20,6 +21,8 @@
         color: #505F79;
         font-weight: bold;
         font-size: 15px;
+
+        cursor: pointer;
     }
     .buttonI1:active {
         border: solid 2px rgb(200,200,200);
@@ -31,7 +34,7 @@
         width:18px;
         height: 18px;
         margin-right: 7px;
-        background-image:url('~@/components/inscription/image/microsoft_logo.svg');
+       /* background-image:url('~@/components/inscription/image/microsoft_logo.svg'); */
         background-size: 100%;
         border: none;
     }
@@ -42,19 +45,6 @@ export default {
   props: {
     message: String,
     img_src: String
-  },
-  methods: {
-    imageSource () {
-      return 'url(\'' + this.img_src + '\')'
-    }
-  },
-  data () {
-    return {
-      member: {
-        name: 'Jakz',
-        coverImage: '@components/inscription/image/microsoft_logo.svg'
-      }
-    }
   }
 }
 </script>
