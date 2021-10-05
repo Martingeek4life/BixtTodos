@@ -1,0 +1,59 @@
+.accueil{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    background-image:linear-gradient(to bottom, #EAE6FF, #F7F5FF);
+}
+.accueil header {
+    padding: 14px;
+    display: flex;
+}
+.logo_zone {
+    width: 50%;
+    display:flex
+}
+.sign_log {
+    width: 50%;
+    display:flex;
+    flex-direction: left;
+    justify-content: right;
+    align-items: center;
+}
+* {
+    box-sizing: border-box;
+}
+.first_aside {
+    width:42%;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.first_aside > div {
+    margin-bottom: 22px;
+    color: #091E42
+}
+.first_text {
+    width: 90%;
+    font-size: 51px;
+    line-height: 52px;
+}
+.first_text + div {
+    width: 90%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.first_text + div + div {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+ }
+.first_text + div + div :first-child {
+   margin-right: 20px;
+   width: 60%;
+}
+footer {
+    margin-top:38px;
+}
