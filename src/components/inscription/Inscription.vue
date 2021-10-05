@@ -4,12 +4,21 @@
         <img src="@/assets/bix_logo.jpg"/>
     </header>
     <div class="main">
-        <section class = "main_section">
+        <form class = "main_section">
             <div class = "title">
                 <span>Sign up for your account</span>
             </div>
-            <div>
-                <InputI0/>
+            <div class ="input">
+                <InputI0 placeholder="Enter email" type = "email"/>
+            </div>
+            <div class ="input">
+                <InputI0 placeholder="Enter name" type = "name"/>
+            </div>
+            <div class ="input">
+                <InputI0 placeholder="Enter password" type = "password"/>
+            </div>
+            <div class ="input">
+                <InputI0 placeholder="Confirm password" type = "password"/>
             </div>
             <div>
                 <span class ="policy">By signing up, you confirm that you've read and accepted our <span>Terms of Service</span> and <span>Privacy Policy</span>. </span>
@@ -27,7 +36,7 @@
             <div class="last">
                 <a>Already have an account? Log In</a>
             </div>
-        </section>
+        </form>
         <section class = "site_lang">
             <DropDownList/>
         </section>

@@ -1,5 +1,7 @@
 <template>
-    <input placeholder="Enter email" class ="inputI0"/>
+<div>
+    <input v-bind:placeholder = "placeholder" v-bind:type ="type" v-model="message" class ="inputI0"/>
+</div>
 </template>
 <style>
     .inputI0 {
@@ -17,3 +19,13 @@
         border-width: 2px;
     }
 </style>
+<script>
+export default {
+  name: 'InputI0',
+  props: {
+    message: String,
+    placeholder: String,
+    type: String
+  }
+}
+</script>
