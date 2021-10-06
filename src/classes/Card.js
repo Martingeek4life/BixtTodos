@@ -1,4 +1,5 @@
 import Utils from './Utils'
+import Checklist from './Checklist'
 
 export default class Card {
   constructor (arg) {
@@ -16,5 +17,13 @@ export default class Card {
     for (let key in card) {
       this[key] = card[key]
     }
+  }
+
+  deleteChecklist (i) {
+    this.checklists.splice(i, 1)
+  }
+
+  addChecklist (title) {
+    this.checklists.push(new Checklist(title))
   }
 }
