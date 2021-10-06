@@ -9,6 +9,8 @@
             <li class="todo">
                 <div class="view">
                     <label for="">Nom de la tache ajoutée</label>
+                    <router-link :to="{name: 'listTables', params:{workspace_id: 'test'}}">List tables</router-link>
+                    <router-link :to="{name: 'accueil'}">Accueil</router-link>
                 </div>
             </li>
         </ul>

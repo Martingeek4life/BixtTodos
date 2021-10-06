@@ -17,6 +17,9 @@
                 <div><Input/><Button2 message= "sign up it's free!"/></div>
             </aside>
             <aside>
+                <div class="btn-group">
+                    <router-link :to="{name: 'listTables'}">List tables</router-link>
+                </div>
             </aside>
         </section>
         <footer>
@@ -25,7 +28,9 @@
     </div>
 </section>
 </template>
-<style src="./accueil.css">
-</style>
+
 <script src = "./accueil.js">
 </script>
+
+<style src="./accueil.css">
+</style>
