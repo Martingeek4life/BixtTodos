@@ -1,20 +1,41 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import todolist from '@/components/todo'
+import todo from '@/components/todo'
+
+import NewCard from '@/components/NewCard'
+import AddCard from '@/components/AddCard'
+import NewList from '@/components/NewList'
+
+import CreateTodo from '@/components/CreateTodo'
+
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/todolist',
-      name: 'todolist',
-      component: todolist
+      path: '/todo',
+      name: 'todo',
+      component: todo
     },
     {
-      path: '/HelloWorld',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/NewCard',
+      name: 'NewCard',
+      component: NewCard
+    },
+    {
+      path: '/AddCard',
+      name: 'AddCard',
+      component: AddCard
+    },
+    {
+      path: '/NewList',
+      name: 'NewList',
+      component: NewList
+    },
+    {
+      path: '/CreateTodo',
+      name: 'CreateTodo',
+      component: CreateTodo
     }
   ]
 })
