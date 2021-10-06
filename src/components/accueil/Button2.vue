@@ -8,7 +8,7 @@
         box-sizing:border-box;
         padding: 7px;
         width: 300px;
-        background-color:#0065FF;
+        background-color:#2575B3;
         border-radius: 0.2em;
         border: none;
         color: white;
@@ -16,7 +16,7 @@
         font-size: 20px;
     }
     .button2:hover {
-        background-color:#0051CC
+        background-color:#10345D
     }
     .button2:focus {
         box-shadow: 0px 0px 0px 4px lightblue;

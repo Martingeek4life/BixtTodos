@@ -11,7 +11,7 @@
         border-radius: 0.3em;
     }
     .input:focus {
-        border-color:#0065FF;
+        border-color:#2575B3;
         box-shadow: 0px 0px 0px 4px lightblue;
     }
 </style>

@@ -6,6 +6,7 @@
             <div class = "bixtrum"><span>Bixtrum</span></div>
         </div>
         <div class = "sign_log">
+            <DropDownList/>
             <Button1 message = "Log in" />
             <Button message = "Sign up" />
         </div>

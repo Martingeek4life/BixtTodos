@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #293856;
+    color: #10345D;
     font-size: 27px;
     font-weight: bold;
 }
@@ -50,7 +50,7 @@
 }
 .first_aside > div {
     margin-bottom: 22px;
-    color: #091E42
+    color: #10345D
 }
 .first_text {
     width: 90%;
