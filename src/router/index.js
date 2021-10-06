@@ -6,8 +6,6 @@ import NewCard from '@/components/NewCard'
 import AddCard from '@/components/AddCard'
 import NewList from '@/components/NewList'
 
-import CreateTodo from '@/components/CreateTodo'
-
 Vue.use(Router)
 
 export default new Router({
@@ -31,11 +29,6 @@ export default new Router({
       path: '/NewList',
       name: 'NewList',
       component: NewList
-    },
-    {
-      path: '/CreateTodo',
-      name: 'CreateTodo',
-      component: CreateTodo
     }
   ]
 })
