@@ -1,11 +1,10 @@
 <template>
-    <button class ="ButtonA0">
-        <div :style = "{ backgroundImage: 'url(' + require(img_src + '') + ')' }"></div>
+    <button class ="ButtonA3">
         <span>{{ message }}</span>
     </button>
 </template>
 <style>
-    .ButtonA0 {
+    .ButtonA3 {
         display: flex;
         justify-content:left;
         align-items:center;
@@ -18,24 +17,16 @@
         font-size: 16px;
         cursor: pointer;
     }
-    .ButtonA0:focus {
+    .ButtonA3:focus {
         background-color: #DFC0EB
     }
-    .ButtonA0:hover {
+    .ButtonA3:hover {
       background-color: #E2E5E9
-    }
-    .ButtonA0 div {
-        border: solid 1px;
-        width:18px;
-        height: 18px;
-        margin-right: 7px;
-        background-size: 100%;
-        border: none;
     }
 </style>
 <script>
 export default {
-  name: 'ButtonA0',
+  name: 'ButtonA3',
   props: {
     message: String,
     img_src: String

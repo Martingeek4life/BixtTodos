@@ -21,7 +21,7 @@
         cursor: pointer;
     }
     .ButtonA1:focus {
-        background-color: #DFC0EB
+        background-color: #E4F0F6
     }
     .ButtonA1:hover {
       background-color: #E6E9ED
