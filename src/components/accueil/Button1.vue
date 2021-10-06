@@ -13,13 +13,13 @@
         border: none;
         color:#2575B3;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 16px
     }
     .button1:hover {
         text-decoration: underline;
     }
     .button1:focus {
-       text-decoration: underline;
+       text-decoration: underline
     }
 </style>
 <script>
