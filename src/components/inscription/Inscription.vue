@@ -11,15 +11,6 @@
             <div class ="input">
                 <InputI0 placeholder="Enter email" type = "email"/>
             </div>
-            <div class ="input">
-                <InputI0 placeholder="Enter name" type = "name"/>
-            </div>
-            <div class ="input">
-                <InputI0 placeholder="Enter password" type = "password"/>
-            </div>
-            <div class ="input">
-                <InputI0 placeholder="Confirm password" type = "password"/>
-            </div>
             <div>
                 <span class ="policy">By signing up, you confirm that you've read and accepted our <span>Terms of Service</span> and <span>Privacy Policy</span>. </span>
             </div>
