@@ -1,5 +1,5 @@
 <template>
-    <button class ="button2">
+    <button type = "submit" class ="button2">
         {{ message }}
     </button>
 </template>
@@ -7,8 +7,7 @@
     .button2 {
         box-sizing:border-box;
         padding: 7px;
-        padding-left:25px;
-        padding-right:25px;
+        width: 300px;
         background-color:#0065FF;
         border-radius: 0.2em;
         border: none;

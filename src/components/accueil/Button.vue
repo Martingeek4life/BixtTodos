@@ -10,7 +10,6 @@
         background-color:#0065FF;
         border-radius: 0.2em;
         border: none;
-        padding: 7px;
         color: white;
         font-weight: bold;
         font-size: 16px;
