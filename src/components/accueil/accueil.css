@@ -11,7 +11,24 @@
 }
 .logo_zone {
     width: 50%;
-    display:flex
+    display: flex;
+}
+.logo_zone .logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('./bixtrum_logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bixtrum {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #10345D;
+    font-size: 27px;
+    font-weight: bold;
 }
 .sign_log {
     width: 50%;
@@ -33,7 +50,7 @@
 }
 .first_aside > div {
     margin-bottom: 22px;
-    color: #091E42
+    color: #10345D
 }
 .first_text {
     width: 90%;
@@ -45,15 +62,16 @@
     font-size: 20px;
     line-height: 30px;
 }
-.first_text + div + div {
+.email {
     width: 100%;
     margin-top: 20px;
+    padding-left: 150px;
     display: flex;
  }
-.first_text + div + div :first-child {
+.email :first-child {
    margin-right: 20px;
-   width: 60%;
 }
 footer {
-    margin-top:38px;
+    margin-top:160px;
+    margin-bottom:25px;
 }
