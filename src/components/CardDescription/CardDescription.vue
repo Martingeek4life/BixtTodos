@@ -1,9 +1,9 @@
 <template>
   <div class="details-space">
-    <header class="headerModal">
-      <h3>{{this.card.title}}</h3>
-      <h3>{{this.card.description}}</h3>
-    </header>
+    <div class="headerModal">
+      <h2>{{this.card.title}}</h2>
+      <!--h3>{{this.card.description}}</h3-->
+    </div>
     <Suggested :card="card"></Suggested>
   </div>
 </template>
@@ -28,11 +28,18 @@ export default {
 
 <style scoped>
   .headerModal{
-    background-color: rgb(63, 133, 30);
+    background-color: white;
     height: 10%;
   }
   .details-space {
     height: 100%;
+    /* background-color: rgb(247, 97, 209); */
+  }
+  h2 {
+    color: #172b4d;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: rgb(247, 97, 209);
   }
 

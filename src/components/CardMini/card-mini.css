@@ -46,6 +46,6 @@
     cursor: pointer;
   }
   .details {
-    background-color: red;
+    /* background-color: red; */
     height: 90%;
   }
