@@ -1,0 +1,28 @@
+.dashboard{}
+.header-workspace{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1.5rems;
+}
+.title-workspace{
+	flex-grow: 1;
+	margin: 0;
+}
+.add-workspace{}
+.body-workspace{}
+.list-workspaces{}
+.workspaces{}
+.workspace{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding: 1rem;
+}
+.workspace-title{
+	margin: 0;
+	margin-bottom: 1rem;
+}
+
+.list-projects{
+	margin-left: 1rem;
+}
