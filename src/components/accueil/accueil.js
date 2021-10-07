@@ -11,5 +11,8 @@ export default {
     Button2,
     Input,
     DropDownList
+  },
+  beforeCreate () {
+    document.getElementById('title').innerHTML = 'Accueil'
   }
 }

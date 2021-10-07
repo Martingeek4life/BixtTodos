@@ -1,5 +1,9 @@
 <template>
 <section class="accueil">
+    <head>
+        <title>Accueil
+        </title>
+    </head>
     <header class="header">
         <div class ="logo_zone">
             <div class = "logo"></div>
