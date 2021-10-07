@@ -1,0 +1,14 @@
+.list-projects{
+
+}
+.title-list-projects{
+
+}
+.list-projects .projects{
+	display: flex;
+	column-gap: 1rem;
+	align-items: center;
+}
+
+.project{
+}
