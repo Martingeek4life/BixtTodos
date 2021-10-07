@@ -1,0 +1,10 @@
+.project-mini{
+}
+.project-mini-title{
+	margin: 0;
+	text-align: center;
+}
+.project-mini-img{
+	max-width: 160px;
+	max-height: 160px;
+}

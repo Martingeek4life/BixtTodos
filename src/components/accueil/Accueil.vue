@@ -18,7 +18,7 @@
             </aside>
             <aside>
                 <div class="btn-group">
-                    <router-link :to="{name: 'listTables'}">List tables</router-link>
+                    <router-link :to="{name: 'workspaces'}">Workspaces</router-link>
                 </div>
             </aside>
         </section>

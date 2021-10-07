@@ -32,17 +32,17 @@ let test = {
   ]
 }
 
-export default class Table {
+export default class Project {
   constructor (arg) {
     let object = Utils.initiateObjectFromArgument(arg, 'Project', 'title')
-    let table = Object.assign({
+    let project = Object.assign({
       title: 'New Project',
       lists: [new List({title: 'To-do', ...test}), new List({title: 'Doing'}), new List('Test'), new List('done')],
-      cover: 'default-table-cover'
+      cover: 'default-project-cover.png'
     }, object)
 
-    for (let obj in table) {
-      this[obj] = table[obj]
+    for (let key in project) {
+      this[key] = project[key]
     }
   }
 

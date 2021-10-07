@@ -2,7 +2,7 @@
 	min-width: 250px;
     margin: 5px;
     padding: .5rem;
-    margin-right: 45px;
+    margin-right: 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #ebecf0;
@@ -46,3 +46,7 @@
 }
 .controls-add-card .btn-add-card{}
 .controls-add-card .btn-add-cancel-add-card{}
+
+.draging-card{
+	cursor: move;
+}

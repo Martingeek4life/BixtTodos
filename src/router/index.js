@@ -2,33 +2,32 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import todolist from '@/components/todo'
-import Accueil from '@/components/accueil/Accueil'
-import ListTables from '@/components/ListTables/ListTables'
-import TableComponent from '@/components/Table/Table.vue'
+import Accueil from '@/components/accueil/Accueil.vue'
+import Project from '@/components/Project/Project.vue'
+import Workspace from '@/components/Workspace/Workspace.vue'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/todolist',
       name: 'todolist',
       component: todolist
     },
     {
-      path: '/accueil',
+      path: '/',
       name: 'accueil',
       component: Accueil
     },
     {
-      path: '/workspace/:workspace_id/tables',
-      name: 'listTables',
-      component: ListTables,
-      props: true
+      path: '/workspaces',
+      name: 'workspaces',
+      component: Workspace
     },
     {
-      path: '/workspace/:workspace_id/tables/:table_id',
-      name: 'table.show',
-      component: TableComponent,
+      path: '/projects/:project_id',
+      name: 'project.show',
+      component: Project,
       props: true
     }
   ]

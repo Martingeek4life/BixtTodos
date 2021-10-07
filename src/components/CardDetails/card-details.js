@@ -1,10 +1,9 @@
 
-
 export default {
   name: 'CardDetails',
   props: {
     card: {type: Object, required: true},
-    list: {type:Object, required: true}
+    list: {type: Object, required: true}
   },
   data () {
     return {
@@ -21,7 +20,7 @@ export default {
     }
   },
   watch: {
-    isAddingChecklist (n,o) {
+    isAddingChecklist (n, o) {
       if (n) {
         this.newChecklistTitle = ''
       }
