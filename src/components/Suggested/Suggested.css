@@ -1,0 +1,25 @@
+.suggested-space {
+    /* background-color: rgb(10, 4, 102); */
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .suggested {
+    /* background-color: rgb(243, 187, 234); */
+    width: 30%;
+    height: 90%;
+  }
+  h5 {
+    color: #172b4d;
+  }
+  li {
+    height: 40px;
+    background-color: #d4daf0;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 7px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
