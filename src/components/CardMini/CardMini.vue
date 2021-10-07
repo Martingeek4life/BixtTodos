@@ -3,7 +3,7 @@
     <h5 class="card-title">{{ card.title }}</h5>
     <transition>
       <div class="cover-img-card" v-if="card.coverImg != ''">
-        <img :src="'assets/images/cards/cover/' + card.coverImg" :alt="card.title">
+        <img :src="'./src/assets/images/cards/cover/' + card.coverImg" :alt="card.title">
       </div>
     </transition>
   </div>
