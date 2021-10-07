@@ -1,18 +1,16 @@
 <template>
   <div style = "" class="main">
-  <ButtonA0 message = "something" img_src = "./image/setting.svg"/>
-  <br>
-  <ButtonA1 message = "something" img_src = "./image/setting.svg"/>
-  <br>
-  <ButtonA2 message = "something A2" img_src = "./image/setting.svg"/>
-  <br>
-  <ButtonA3 message = "something A3" img_src = "./image/setting.svg"/>
-  <br>
-  <ButtonSquare img_src = "./image/bell.svg"/>
-  <br>
-  <RectangleA0 img_src = "./image/Live-Motion-Background.svg" message = " message"/>
-  <br>
-  <RectangleA1 img_src = "./image/bubble-animated-background.svg" message = "new message"/>
+  <header>
+    <div class = "header_left">
+        <div><ButtonSquare img_src = "./image/bell.svg"/></div>
+        <div><ButtonA0 message = "Bixtrum" img_src = "./image/setting.svg"/></div>
+        <div><ButtonA4 message = "Espace de travail" img_src = "./image/setting.svg"/></div>
+        <div><ButtonA4 message = "Récent" img_src = "./image/setting.svg"/></div>
+        <div><ButtonA4 message = "Favoris" img_src = "./image/setting.svg"/></div>
+    </div>
+    <div class = "header_right">
+    </div>
+  </header>
   </div>
 </template>
 

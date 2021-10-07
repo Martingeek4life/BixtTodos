@@ -1,7 +1,11 @@
 <template>
     <div :style = "{ backgroundImage: 'url(' + require(img_src + '') + ')' }" class ="RectangleA1">
-        <ButtonA3 this.message = "something A3" img_src = "./image/setting.svg"/>
-        <span>{{ message }}</span>
+        <div>
+          <button class ="RectangleA1Message0">
+            <span>{{ message0 }}</span>
+          </button>
+        </div>
+        <span class = "RectangleA1Message">{{ message }}</span>
     </div>
 </template>
 <style>
@@ -9,9 +13,9 @@
         box-sizing:border-box;
         display:flex;
         flex-direction: column;
-        padding: 7px;
-        width: 200px;
-        height: 100px;
+        padding: 8px;
+        width: 205px;
+        height: 105px;
         background-size: 100%;
         border-radius: 0.2em;
         border: none;
@@ -23,23 +27,36 @@
     .RectangleA1:hover {
       opacity: 0.95;
     }
-    .RectangleA1 span {
+    .RectangleA1 .RectangleA1Message {
       text-align: justify;
       font-weight: bold;
       font-size: 16px;
       color:white;
     }
+    .RectangleA1 .RectangleA1Message0 {
+        box-sizing:border-box;
+        display: flex;
+        justify-content:left;
+        align-items:center;
+        padding: 3.5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color:rgba(200, 200, 200);
+        border-radius: 0.2em;
+        border: none;
+        color: rgb(4, 23, 56);
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
 </style>
 <script>
-import ButtonA3 from '@/components/atterissage/ButtonA3.vue'
 export default {
   name: 'RectangleA1',
   props: {
     message: String,
+    message0: String,
     img_src: String
-  },
-  component: {
-    ButtonA3
   }
 }
 </script>

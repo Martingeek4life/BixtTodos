@@ -8,7 +8,7 @@ import RectangleA0 from '@/components/atterissage/RectangleA0.vue'
 import RectangleA1 from '@/components/atterissage/RectangleA1.vue'
 import DropDownList from '@/components/atterissage/DropDownList.vue'
 export default {
-  name: 'Atterissage',
+  name: 'Atterissage1',
   components: {
     ButtonA0,
     ButtonA1,

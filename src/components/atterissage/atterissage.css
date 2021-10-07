@@ -1,0 +1,24 @@
+.main {
+    position:absolute;
+    width:100%;
+    top:0%;
+    left:0%;
+}
+header {
+    background-color: #026AA7;
+    padding: 5px;
+    display: flex;
+}
+.header_left {
+    width: 50%;
+    display: flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.header_right {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
