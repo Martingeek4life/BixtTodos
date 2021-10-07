@@ -1,6 +1,6 @@
 import List from '@/classes/List'
 import Card from '@/components/Card/Card.vue'
-import { Container, Draggable } from "vue-smooth-dnd"
+import { Container, Draggable } from 'vue-smooth-dnd'
 
 export default {
   name: 'ListCard',
@@ -17,8 +17,8 @@ export default {
   },
   data () {
     return {
-      isAddingCard:false,
-      newCardTitle:''
+      isAddingCard: false,
+      newCardTitle: ''
     }
   },
   methods: {
@@ -29,8 +29,8 @@ export default {
     }
   },
   watched: {
-    isAddingCard (n,o) {
-      if(n){
+    isAddingCard (n, o) {
+      if (n) {
         this.newCardTitle = ''
         document.getElementById('add-card-textarea-title').focus()
       }

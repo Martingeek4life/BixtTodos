@@ -1,6 +1,6 @@
 import Table from '@/classes/Table'
 import ListCard from '@/components/ListCard/ListCard.vue'
-import { Container, Draggable } from "vue-smooth-dnd"
+import { Container, Draggable } from 'vue-smooth-dnd'
 
 export default {
   name: 'TableComponent',

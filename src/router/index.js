@@ -5,6 +5,8 @@ import todolist from '@/components/todo'
 import Accueil from '@/components/accueil/Accueil'
 import ListTables from '@/components/ListTables/ListTables'
 import TableComponent from '@/components/Table/Table.vue'
+
+import Checklist from '@/components/Checlikst/Checklist.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +31,18 @@ export default new Router({
       path: '/workspace/:workspace_id/tables/:table_id',
       name: 'table.show',
       component: TableComponent,
+      props: true
+    },
+    {
+      path: '/workspace',
+      name: 'listTables',
+      component: ListTables,
+      props: true
+    },
+    {
+      path: '/Checklist',
+      name: 'Checklist',
+      component: Checklist,
       props: true
     }
   ]
