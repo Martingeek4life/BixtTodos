@@ -14,7 +14,7 @@
         border-radius: 0.2em;
         border: none;
         color: #182B4C;
-        font-size: 16px;
+        font-size: 15px;
         cursor: pointer;
     }
     .ButtonA3:focus {

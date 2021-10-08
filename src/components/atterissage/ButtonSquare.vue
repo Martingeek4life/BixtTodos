@@ -1,5 +1,5 @@
 <template>
-    <button :style = "{ backgroundImage: 'url(' + require(img_src + '') + ')' }" class ="ButtonSquare">
+    <button :style="{ backgroundImage: 'url(' + require(img_src + '') + ')' }" class ="ButtonSquare">
     </button>
 </template>
 <style>
@@ -8,8 +8,8 @@
         justify-content:left;
         align-items:center;
         box-sizing:border-box;
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
         background-color:rgba(230, 233, 237,0);
         border-radius: 0.2em;
         border: none;
@@ -24,7 +24,7 @@
         background-color: #E4F0F6
     }
     .ButtonSquare:hover {
-      background-color:rgba(230, 233, 237,0.8);
+      background-color:rgba(230, 233, 237,0.2);
       /*02517F*/
     }
 </style>

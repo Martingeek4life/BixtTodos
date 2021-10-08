@@ -22,3 +22,115 @@ header {
     justify-content: right;
     align-items: center;
 }
+.header_left > div {
+    margin-right: 6px;
+}
+.header_right > div {
+    margin-left: 3px;
+}
+.main_section {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_section .first_aside {
+    width: 231px;
+    height: 900px;
+}
+.espace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.espace span {
+    box-sizing: border-box;
+    width: 99%;
+    font-size: 13px;
+    text-align: justify;
+    padding-left: 10px;
+}
+.second_aside {
+    height: 900px;
+    margin: 15px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+}
+.modele {
+    display: flex;
+    color: #182B4C;
+    font-weight: bold;
+    font-size: 20px;
+}
+.modele img {
+    width: 20px;
+    margin-right: 10px;
+}
+.gagne {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gagne span {
+    margin-right: 8px;
+    font-size: 15px;
+    text-align: justify;
+    color: #182B4C;
+}
+.tableau {
+    display: flex;
+    margin-top: 25px;
+}
+.tableau > div {
+    margin-left: 10px;
+}
+.decouvre {
+    text-decoration: underline;
+    color: rgb(44, 63, 96);
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recemment {
+    color: rgb(44, 63, 96);
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    border-top: solid 1px;
+    padding-top:20px;
+}
+.recemment span {
+    color: #182B4C;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+}
+.recemment img {
+    width: 20px;
+    margin-right: 11px;
+}
+.recemment + div {
+    margin-top: 12px;
+    display: flex;
+}
+.recemment + div > div {
+    margin-left: 10px;
+}
+.vos {
+    margin-top: 60px;
+    color: rgb(44, 63, 96);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+.vos + div {
+    margin-top: 15px;
+    display: flex;
+
+}
+.vos + div > div {
+    margin-right: 5px;
+}

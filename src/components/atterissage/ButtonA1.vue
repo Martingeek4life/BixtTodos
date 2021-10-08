@@ -32,6 +32,7 @@
         height: 18px;
         margin-right: 7px;
         background-size: 100%;
+        background-repeat: no-repeat;
         border: none;
     }
 </style>

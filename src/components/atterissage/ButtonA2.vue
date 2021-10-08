@@ -1,6 +1,6 @@
 <template>
     <button class ="ButtonA2">
-        <div :style = "{ backgroundImage: 'url(' + require(img_src + '') + ')' }"></div>
+        <div :style="{ backgroundImage: 'url(' + require(img_src + '') + ')' }"></div>
         <span>{{ message }}</span>
     </button>
 </template>

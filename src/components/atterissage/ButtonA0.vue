@@ -10,12 +10,12 @@
         justify-content:left;
         align-items:center;
         box-sizing:border-box;
-        padding: 9px;
+        padding: 7px;
         background-color:#EDEFF1;
         border-radius: 0.2em;
         border: none;
         color: #182B4C;
-        font-size: 16px;
+        font-size: 15px;
         cursor: pointer;
     }
     .ButtonA0:focus {

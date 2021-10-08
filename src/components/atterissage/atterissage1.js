@@ -7,6 +7,7 @@ import ButtonSquare from '@/components/atterissage/ButtonSquare.vue'
 import RectangleA0 from '@/components/atterissage/RectangleA0.vue'
 import RectangleA1 from '@/components/atterissage/RectangleA1.vue'
 import DropDownList from '@/components/atterissage/DropDownList.vue'
+import InputAA0 from '@/components/atterissage/InputAA0.vue'
 export default {
   name: 'Atterissage1',
   components: {
@@ -18,6 +19,7 @@ export default {
     ButtonSquare,
     RectangleA0,
     RectangleA1,
-    DropDownList
+    DropDownList,
+    InputAA0
   }
 }

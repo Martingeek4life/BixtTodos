@@ -8,18 +8,19 @@
         box-sizing:border-box;
         display:flex;
         padding: 7px;
-        width: 200px;
+        width: 195px;
         height: 100px;
         background-size: 100%;
         border-radius: 0.2em;
         border: none;
         cursor: pointer;
+        opacity: 0.95;
     }
     .RectangleA0:focus {
         background-color: #E4F0F6
     }
     .RectangleA0:hover {
-      opacity: 0.95;
+      opacity: 1;
     }
     .RectangleA0 span {
       text-align: justify;
