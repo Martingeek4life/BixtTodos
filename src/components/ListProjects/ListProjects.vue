@@ -2,7 +2,7 @@
   <div class="list-projects-component">
     <!-- <h2 class="title-list-projects">Projects</h2> -->
     <div class="projects">
-      <div class="projssect" v-for="(project, i) in projects" :key="'project-'+i">
+      <div class="project" v-for="(project, i) in projects" :key="'project-'+i">
         <router-link :to="{name: 'project.show', params: {project_id: project.link}}">
           <ProjectMini :project="project" />
         </router-link>
