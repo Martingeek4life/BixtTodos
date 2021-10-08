@@ -7,17 +7,22 @@ import ListTables from '@/components/ListTables/ListTables'
 import TableComponent from '@/components/Table/Table.vue'
 
 import Checklist from '@/components/Checlikst/Checklist.vue'
+import Project from '@/components/Project/Project.vue'
+import Workspace from '@/components/Workspace/Workspace.vue'
+// import VueI18n from 'vue-i18n'
+
+// Vue.use(VueI18n)
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/todolist',
       name: 'todolist',
       component: todolist
     },
     {
-      path: '/accueil',
+      path: '/',
       name: 'accueil',
       component: Accueil
     },
@@ -43,6 +48,14 @@ export default new Router({
       path: '/Checklist',
       name: 'Checklist',
       component: Checklist,
+      path: '/workspaces',
+      name: 'workspaces',
+      component: Workspace
+    },
+    {
+      path: '/projects/:project_id',
+      name: 'project.show',
+      component: Project,
       props: true
     }
   ]

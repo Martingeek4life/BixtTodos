@@ -46,3 +46,7 @@
 }
 .controls-add-card .btn-add-card{}
 .controls-add-card .btn-add-cancel-add-card{}
+
+.draging-card{
+	cursor: move;
+}

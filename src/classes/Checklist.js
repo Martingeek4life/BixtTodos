@@ -1,12 +1,14 @@
 import Utils from './Utils'
 
-/*
 class Task {
   constructor (arg) {
     let task = Object.assign({title: '', done: false}, Utils.initiateObjectFromArgument(arg))
+
+    for (let key in task) {
+      this[key] = task[key]
+    }
   }
 }
-*/
 
 export default class Checklist {
   constructor (arg) {
@@ -30,5 +32,9 @@ export default class Checklist {
 
   get progress () {
     return parseInt(this.tasksDone.length * 100 / this.tasks.length)
+  }
+
+  addTask (title) {
+    this.tasks.push(new Task(title))
   }
 }

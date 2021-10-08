@@ -1,4 +1,6 @@
+
 import CardDescription from '@/components/CardDescription/CardDescription.vue'
+
 export default {
   name: 'MiniCard',
   props: {

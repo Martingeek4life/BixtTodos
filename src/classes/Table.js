@@ -37,6 +37,9 @@ export default class Table {
     let object = Utils.initiateObjectFromArgument(arg, 'Table', 'title')
     let table = Object.assign({
       title: 'New Table',
+    let object = Utils.initiateObjectFromArgument(arg, 'Project', 'title')
+    let table = Object.assign({
+      title: 'New Project',
       lists: [new List({title: 'To-do', ...test}), new List({title: 'Doing'}), new List('Test'), new List('done')],
       cover: 'default-table-cover'
     }, object)

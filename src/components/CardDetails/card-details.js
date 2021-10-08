@@ -1,5 +1,4 @@
 
-
 export default {
   name: 'CardDetails',
   props: {
@@ -21,7 +20,7 @@ export default {
     }
   },
   watch: {
-    isAddingChecklist (n,o) {
+    isAddingChecklist (n, o) {
       if (n) {
         this.newChecklistTitle = ''
       }
