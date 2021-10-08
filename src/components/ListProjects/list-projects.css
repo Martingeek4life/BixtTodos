@@ -4,9 +4,10 @@
 .title-list-projects{
 
 }
-.list-projects .projects{
-	display: flex;
-	column-gap: 1rem;
+.projects{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 200px));
+	grid-column-gap: 1rem;
 	align-items: center;
 }
 

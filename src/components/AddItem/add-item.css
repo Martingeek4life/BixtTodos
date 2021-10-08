@@ -1,0 +1,28 @@
+@import '../../styles/btn.css';
+
+.add-item{
+
+}
+.adding{
+}
+.adding .controls-add{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0.5rem;
+	margin-top: 1rem;
+	column-gap: 0.5rem;
+}
+
+.adding input.form-control{
+	max-width: 100%;
+}
+.adding textarea.form-control{
+	resize: vertical;
+	width: fit-content;
+	/*max-width: 100%;*/
+}
+
+.show-add{
+
+}
