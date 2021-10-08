@@ -34,6 +34,9 @@ let test = {
 
 export default class Table {
   constructor (arg) {
+    let object = Utils.initiateObjectFromArgument(arg, 'Table', 'title')
+    let table = Object.assign({
+      title: 'New Table',
     let object = Utils.initiateObjectFromArgument(arg, 'Project', 'title')
     let table = Object.assign({
       title: 'New Project',

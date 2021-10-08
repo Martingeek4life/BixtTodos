@@ -1,0 +1,22 @@
+.suggested-area {
+    /* background-color: rgb(245, 230, 164); */
+    width: 70%;
+    height: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h5 {
+    color: #172b4d;
+    text-align: left;
+  }
+  li {
+    height: 30px;
+    background-color: #d4daf0;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 3px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }

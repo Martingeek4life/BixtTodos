@@ -26,4 +26,10 @@ export default class Card {
   addChecklist (title) {
     this.checklists.push(new Checklist(title))
   }
+/*
+  addDescription (description) {
+    this.card.description = description
+    alert(this.card.description)
+  }
+  */
 }

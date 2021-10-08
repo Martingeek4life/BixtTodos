@@ -3,7 +3,7 @@ export default {
   name: 'CardDetails',
   props: {
     card: {type: Object, required: true},
-    list: {type: Object, required: true}
+    list: {type:Object, required: true}
   },
   data () {
     return {
