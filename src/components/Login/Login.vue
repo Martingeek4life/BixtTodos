@@ -3,13 +3,13 @@
    <div class="wrapper_login">
         <div class="wrapper_logo">
             <div class="logo"></div>
-        </div>
-        <div class="name_logo">
-            Bixtrum
-        </div>
-        <div class="welcome">
-            Welcome back
-        </div>
+            <div class="name_logo">
+                    Bixtrum
+            </div>
+            <div class="welcome">
+                    Welcome back
+            </div>
+         </div>
         <div class="formulaire_connexion">
             <form action="/" method="POST">
                 <div class="Email">
@@ -32,8 +32,10 @@
                 <Button1 message = "forgot password?" />
             </div>
         </div>
-         <div class="signIn">
+        <div class="but_center">
+             <div class="signIn">
                 <Button message = "Sign in" />
+             </div>
         </div>
         <div class="msg_other_log">
             <div class="msg_border"></div>
@@ -53,9 +55,11 @@
             </div>
         </div>
         </div>
-        <div class="sign_up">
-            Don't have and account?  <Button1 message = "Sign up" />
-        </div>
+         <div class="but_center">
+            <div class="sign_up">
+                Don't have and account?  <Button1 message = "Sign up" />
+            </div>
+         </div>
     </div>
 </section>
 </template>
