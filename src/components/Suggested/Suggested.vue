@@ -6,7 +6,7 @@
           <li>join</li>
         </ul>
         <h5>ADD TO CARD</h5>
-        <ul>
+        <ul class="suggestedList">
           <li>members</li>
           <li>labels</li>
           <!-- button for show modal -->

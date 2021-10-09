@@ -5,9 +5,10 @@
     flex-direction: row-reverse;
   }
   .suggested {
-    /* background-color: rgb(243, 187, 234); */
+    background-color: rgb(243, 187, 234);
     width: 30%;
     height: 90%;
+    padding: 2%;
   }
   h5 {
     color: #172b4d;
@@ -21,6 +22,7 @@
     line-height: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: -20%;
   }
   .modalContainer {
     display: none; /* Hidden by default */

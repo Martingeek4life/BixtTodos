@@ -14,8 +14,8 @@ export default {
   methods: {
     showModal () {
       var modal = document.getElementById('myModal')
-      // var btn = document.getElementById('myBtn')
       modal.style.display = 'block'
+      console.log('cardMini: ' + this.card.title)
     },
     hideModal () {
       var modal = document.getElementById('myModal')
