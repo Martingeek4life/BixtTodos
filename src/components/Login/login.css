@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-family: montserrat;
+}
+.red{
+    color: red;
+}
+@font-face {
+    font-family: montserrat;
+    src: url("./font/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+
+    font-family: kaushan;
+    src: url("./font/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+#login{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.wrapper_login{
+    width: 566px;
+    height: 943px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+.wrapper_logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-top: 20px;
+    height: 121px;
+    width: 120px;
+    background-size: cover ;
+    background-image: url("./img/logobixtrum2.png");
+}
+.name_logo{
+font-family: montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+color: #10345D;
+}
+.welcome{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-family: kaushan;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color:#000000;
+    line-height: 70px;
+
+}
+.ident_champs{
+    float: left;
+    margin-top: 20px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.input_form{
+    width: 563px;
+    height: 35px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 11px;
+    padding-left: 30px;
+}
+
+::placeholder{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    color: #777777;
+}
+.before_sign{
+    display: flex;
+    margin-top: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox{
+    width: 50%;
+    font-style: normal;
+    font-weight: 600    ;
+    font-size: 12px;
+    line-height: 15px;
+    color: #10345D;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.forgot_pw{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.but_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg_other_log{
+    margin-top:37px;
+    width: 564px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg_txt{
+    width: 33.33%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.msg_border{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 33.33%;
+    height: 10px;
+    border-bottom: solid 1px #000000;
+}
+.wrapper_soc_net{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_net{
+    margin-top: 37px;
+    width: 112px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hover_soc_net :hover {
+    box-shadow: 0px 0px 0px 3px #8bb7fa;
+}
+.sign_up{
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}

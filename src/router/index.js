@@ -5,6 +5,8 @@ import todolist from '@/components/todo'
 import Accueil from '@/components/accueil/Accueil.vue'
 import Project from '@/components/Project/Project.vue'
 import Workspace from '@/components/Workspace/Workspace.vue'
+import Login from '@/components/Login/Login.vue'
+import Inscription from '@/components/Inscription/Inscription.vue'
 // import VueI18n from 'vue-i18n'
 
 // Vue.use(VueI18n)
@@ -32,6 +34,17 @@ export default new Router({
       name: 'project.show',
       component: Project,
       props: true
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/inscription',
+      name: 'inscription',
+      component: Inscription
     }
+
   ]
 })
