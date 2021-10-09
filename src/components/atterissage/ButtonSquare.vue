@@ -8,8 +8,8 @@
         justify-content:left;
         align-items:center;
         box-sizing:border-box;
-        width: 38px;
-        height: 38px;
+        width: 36px;
+        height: 36px;
         background-color:rgba(230, 233, 237,0);
         border-radius: 0.2em;
         border: none;

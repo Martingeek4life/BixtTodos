@@ -25,8 +25,9 @@
       background-color:rgba(230, 233, 237,0.2);
     }
     .ButtonA4 div {
-        height: 100%;
-        margin-left: 7px;
+        width:12px;
+        height: 12px;
+        margin-left: 12px;
         background-size: 100%;
         border: none;
     }
@@ -36,8 +37,7 @@ export default {
   name: 'ButtonA4',
   props: {
     message: String,
-    img_src: String,
-    bgColor: String
+    img_src: String
   }
 }
 </script>

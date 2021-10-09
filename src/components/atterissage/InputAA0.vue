@@ -36,8 +36,8 @@
       background-color: rgba(200,200,200,0.3);
     }
     .InputAA0 div {
-        width:18px;
-        height: 18px;
+        width:20px;
+        height: 20px;
         margin-right: 7px;
         background-size: 100%;
         background-color: rgba(200,200,200,0);

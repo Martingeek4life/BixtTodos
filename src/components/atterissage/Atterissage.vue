@@ -2,32 +2,32 @@
   <div style = "" class="main">
   <header>
     <div class = "header_left">
-        <div class="button"><ButtonSquare img_src = "./image/bell.svg"/></div>
-        <div><ButtonA0 message = "Bixtrum" img_src = "./image/setting.svg"/></div>
-        <div><ButtonA4 message = "Espace de travail" img_src = "./image/setting.svg"/></div>
-        <div><ButtonA4 message = "Récent" img_src = "./image/setting.svg"/></div>
-        <div><ButtonA4 message = "Favoris" img_src = "./image/setting.svg"/></div>
+        <div><ButtonSquare img_src = "./image/menu-svgrepo-com.svg"/></div>
+        <div><ButtonA0 message = "Bixtrum" img_src = "./image/down_arrow_white.svg"/></div>
+        <div><ButtonA4 message = "Espace de travail" img_src = "./image/down_arrow_white.svg"/></div>
+        <div><ButtonA4 message = "Récent" img_src = "./image/down_arrow_white.svg"/></div>
+        <div><ButtonA4 message = "Favoris" img_src = "./image/down_arrow_white.svg"/></div>
         <div><ButtonA4 message = "Créer" style = "background-color:rgba(0, 3, 7,0.3)" /></div>
     </div>
     <div class = "header_right">
-        <div class = "first_aside"><InputAA0 img_src = "./image/bubble-animated-background.svg" message = " message"/></div>
-        <div><ButtonSquare img_src = "./image/bell.svg"/></div>
-        <div><ButtonSquare img_src = "./image/bell.svg"/></div>
-        <div><ButtonSquare img_src = "./image/bell.svg"/></div>
+        <div class = "first_aside"><InputAA0 img_src = "./image/loupe-svgrepo-com.svg" message = " message"/></div>
+        <div><ButtonSquare img_src = "./image/exclamation-svgrepo-com.svg"/></div>
+        <div><ButtonSquare img_src = "./image/bell.svg" :style = "{ backgroundColor: '#EB5A46' }" /></div>
+        <div><ButtonSquare img_src = "./image/TM.png" style = "background-size:85%" /></div>
     </div>
   </header>
   <section class = "main_section">
     <aside class= "first_aside">
-        <ButtonA1 message = "Tableaux" img_src = "./image/setting.svg"/>
-        <ButtonA1 message = "Modèles" img_src = "./image/setting.svg"/>
+        <ButtonA1 message = "Tableaux" img_src = "./image/table-svgrepo-com.svg"/>
+        <ButtonA1 message = "Modèles" img_src = "./image/table-svgrepo.svg"/>
         <ButtonA1 message = "Accueil" img_src = "./image/setting.svg"/>
         <div class = "espace"><span>ESPACE DE TRAVAIL</span><div><ButtonSquare img_src = "./image/bell.svg"/></div></div>
         <ButtonA1 message = "Espace de travail de l'utilisateur x" img_src = "./image/setting.svg"/>
-        <ButtonA2 message = "Commencer" img_src = "./image/setting.svg"/>
-        <ButtonA2 message = "Tableau" img_src = "./image/setting.svg"/>
-        <ButtonA2 message = "A la une" img_src = "./image/setting.svg"/>
-        <ButtonA2 message = "Tableur de l'espace de travail" img_src = "./image/setting.svg"/>
-        <ButtonA2 message = "Membres" img_src = "./image/setting.svg"/>
+        <ButtonA2 message = "Commencer" img_src = "./image/checked-box-svgrepo-com.svg"/>
+        <ButtonA2 message = "Tableau" img_src = "./image/table-svgrepo.svg"/>
+        <ButtonA2 message = "A la une" img_src = "./image/heart-svgrepo-com.svg"/>
+        <ButtonA2 message = "Tableur de l'espace de travail" img_src = "./image/table-svgrepo-com.svg"/>
+        <ButtonA2 message = "Membres" img_src = "./image/member-svgrepo-com.svg"/>
         <ButtonA2 message = "Paramètres" img_src = "./image/setting.svg"/>
     </aside>
     <aside class = "second_aside">
@@ -56,9 +56,9 @@
       <div>
         <div><ButtonSquare img_src = "./image/bell.svg"/></div>
         <div>ES..</div>
-        <div><ButtonA0 message = "Tableaux" img_src = "./image/setting.svg"/></div>
-        <div><ButtonA0 message = "Tableur d'espace de travail" img_src = "./image/setting.svg"/></div>
-        <div><ButtonA0 message = "Membres" img_src = "./image/setting.svg"/></div>
+        <div><ButtonA0 message = "Tableaux" img_src = "./image/table-svgrepo.svg"/></div>
+        <div><ButtonA0 message = "Tableur d'espace de travail" img_src = "./image/table-svgrepo-com.svg"/></div>
+        <div><ButtonA0 message = "Membres" img_src = "./image/family-svgrepo-com.svg"/></div>
         <div><ButtonA0 message = "Paramètres" img_src = "./image/setting.svg"/></div>
         <div><ButtonA0 message = "Acheter" img_src = "./image/setting.svg"/></div>
       </div>

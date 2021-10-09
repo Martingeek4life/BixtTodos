@@ -5,6 +5,8 @@
     left:0%;
 }
 header {
+    width: 100%;
+    box-sizing: border-box;
     background-color: #026AA7;
     padding: 5px;
     display: flex;
@@ -132,5 +134,5 @@ header {
 
 }
 .vos + div > div {
-    margin-right: 5px;
+    margin-right: 10px;
 }

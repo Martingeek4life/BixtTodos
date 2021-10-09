@@ -15,12 +15,12 @@ export default new Router({
     },
     {
       path: '/atterissage',
-      name: 'todolist',
+      name: 'atterissage',
       component: Atterissage
     },
     {
       path: '/atterissage1',
-      name: 'todolist',
+      name: 'atterissage1',
       component: Atterissage1
     }
   ]
