@@ -11,10 +11,8 @@
           <li>labels</li>
           <!-- button for show modal -->
           <li id="myBtnCheck" v-on:click="showChecklist = true">checklist</li>
-            <!-- Modal content
-              <button class="btn btn-outline-primary border-0 ml-2"  @click="addChecklist()">Add</button>
-            -->
-            <div  id="myModalCheck" class="modalContainer showChecklistClass" v-if="showChecklist">
+            <!-- Modal content -->
+            <div class="modalContainer" v-if="showChecklist">
               <span class="closeCheck" v-on:click="showChecklist = false">&times;</span>
               <div class="headerChack">
                 <h5>Add checklist</h5>
@@ -24,7 +22,7 @@
                 <!--input type="text" class="form-control" v-model="checklistName" /-->
                 <input type="text" class="input-checklist" v-model="checklistName" />
               </form>
-              <button class="btn btn-primary border-5 ml-2"  @click="addChecklist()">Add</button>
+              <button class="btn btn-primary border-5 ml-2"  @click="createChecklist()">Add</button>
             </div>
           <li>Dates</li>
           <li>attachment</li>

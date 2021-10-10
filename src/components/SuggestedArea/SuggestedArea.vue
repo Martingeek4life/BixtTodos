@@ -13,15 +13,7 @@
     </div>
 
     <!--affichage de la checklist-->
-    <h5>CHECKLIST</h5>
-    <ul>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-    </ul>
+    <Checklists :card="card"></Checklists>
   </div>
 </template>
 

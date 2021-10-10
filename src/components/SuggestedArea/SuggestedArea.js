@@ -1,4 +1,4 @@
-// import Suggested from '@/components/Suggested/Suggested.vue'
+import Checklists from '@/components/Checklists/Checklists.vue'
 export default {
   data () {
     return {
@@ -9,7 +9,7 @@ export default {
     card: {type: Object, required: true}
   },
   components: {
-    // Suggested
+    Checklists
   },
   methods: {
     addDescription (descriptionInput) {

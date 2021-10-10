@@ -13,11 +13,9 @@ export default {
     SuggestedArea
   },
   methods: {
-    addChecklist () {
-      alert('wanda')
+    createChecklist () {
       if (this.checklistName.length > 0) {
         this.card.addChecklist(this.checklistName)
-        // alert(this.card.checklists.title)
       }
     }
   }

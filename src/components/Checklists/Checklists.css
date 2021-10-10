@@ -1,0 +1,33 @@
+h5 {
+  color: #172b4d;
+  text-align: left;
+  /*overflow: scroll; */
+}
+li {
+  height: 30px;
+  background-color: #d4daf0;
+  list-style: none;
+  text-align: left;
+  margin-bottom: 3px;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -7%;
+}
+  /*
+.modalContainer {
+  display: block;
+  width: 20%;
+  height: 30%;
+  overflow: auto; 
+  margin-left: 2%;
+  padding: 1%;
+  background-color: #fff;
+  border: 1px solid #888;
+  position: fixed;
+  z-index: 1;
+}
+  */
+button {
+  margin-bottom: -20px;
+}

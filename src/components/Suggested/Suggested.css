@@ -25,6 +25,7 @@
     margin-left: -20%;
   }
   .modalContainer {
+    display: block;
     width: 20%; /* Full width */
     height: 30%; /* Full height */
     overflow: auto; 
@@ -67,7 +68,4 @@
     height: 10%;
     padding: 5px;
     margin-bottom: 3px;
-  }
-  .showChecklistClass {
-    display: block;
   }
