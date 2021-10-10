@@ -38,7 +38,7 @@ export default class Project {
     let project = Object.assign({
       title: 'New Project',
       lists: [new List({title: 'To-do', ...test}), new List({title: 'Doing'}), new List('Test'), new List('done')],
-      cover: 'default-project-cover.png'
+      cover: 'default-project-cover.jpg'
     }, object)
 
     for (let key in project) {
