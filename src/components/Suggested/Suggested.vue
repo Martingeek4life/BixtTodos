@@ -19,7 +19,6 @@
               </div>
               <form class="flex-grow-1">
                 <h6>Titre</h6>
-                <!--input type="text" class="form-control" v-model="checklistName" /-->
                 <input type="text" class="input-checklist" v-model="checklistName" />
               </form>
               <button class="btn btn-primary border-5 ml-2"  @click="createChecklist()">Add</button>
@@ -29,7 +28,7 @@
           <li>cover</li>
         </ul>
       </div>
-      <SuggestedArea :card="card"></SuggestedArea>
+      <SuggestedArea :card="card" :checklist="checklist"></SuggestedArea>
     </div>
 </template>
 <script src="./Suggested.js"></script>

@@ -1,20 +1,21 @@
   .suggested-space {
-    /* background-color: rgb(10, 4, 102); */
-    height: 100%;
+    /* background-color: rgb(10, 4, 102);*/
+    min-height: 100%;
     display: flex;
     flex-direction: row-reverse;
   }
   .suggested {
-    background-color: rgb(243, 187, 234);
+    /*
+    background-color: rgb(243, 187, 234);*/
     width: 30%;
-    height: 90%;
+    min-height: 90%;
     padding: 2%;
   }
   h5 {
     color: #172b4d;
   }
   li {
-    height: 35px;
+    min-height: 35px;
     background-color: #d4daf0;
     list-style: none;
     text-align: left;
@@ -27,8 +28,8 @@
   .modalContainer {
     display: block;
     width: 20%; /* Full width */
-    height: 30%; /* Full height */
-    overflow: auto; 
+    min-height: 30%; /* Full height 
+    overflow: auto; */
     margin-left: 2%;
     padding: 1%;
     /* background-color: #ebecf0; */

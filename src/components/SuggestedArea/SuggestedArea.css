@@ -1,7 +1,9 @@
 .suggested-area {
+  /*
     background-color: rgb(245, 230, 164);
+    */
+    min-height: 90%;
     width: 70%;
-    height: 90%;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -11,7 +13,7 @@
     /*overflow: scroll; */
   }
   li {
-    height: 30px;
+    min-height: 30px;
     background-color: #d4daf0;
     list-style: none;
     text-align: left;

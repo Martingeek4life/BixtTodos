@@ -1,13 +1,16 @@
+import Checklist from '@/classes/Checklist'
 import SuggestedArea from '@/components/SuggestedArea/SuggestedArea.vue'
 export default {
   data () {
     return {
       checklistName: '',
-      showChecklist: false
+      showChecklist: false,
+      checklist: {type: Object, required: true}
     }
   },
   props: {
     card: {type: Object, required: true}
+    // checklist: { type: Object, required: false, default () { return new Checklist() } }
   },
   components: {
     SuggestedArea
@@ -15,7 +18,9 @@ export default {
   methods: {
     createChecklist () {
       if (this.checklistName.length > 0) {
-        this.card.addChecklist(this.checklistName)
+        this.checklist = new Checklist(this.checklistName)
+        this.card.addChecklists(this.checklist)
+        console.log('ma checklist: ' + this.checklist.title)
       }
     }
   }

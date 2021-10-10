@@ -1,4 +1,4 @@
-import ChecklistItem from '@/components/ChecklistItem/ChecklistItem.vue'
+// import Suggested from '@/components/Suggested/Suggested.vue'
 export default {
   data () {
     return {
@@ -11,12 +11,11 @@ export default {
     checklist: {type: Object, required: true}
   },
   components: {
-    ChecklistItem
+    // Suggested
   },
   methods: {
     addItem () {
       if (this.checklistItem.length > 0) {
-        this.checklist.addTask(this.checklistItem)
         this.showInput = false
         console.log(this.card.checklists)
         // this.card.addChecklist(this.checklistName)

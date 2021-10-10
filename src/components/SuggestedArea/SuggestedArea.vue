@@ -13,7 +13,7 @@
     </div>
 
     <!--affichage de la checklist-->
-    <Checklists :card="card"></Checklists>
+    <Checklists :card="card" :checklist="checklist"></Checklists>
   </div>
 </template>
 
