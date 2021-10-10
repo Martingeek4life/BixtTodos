@@ -4,12 +4,15 @@
     <ul>
       <li>join</li>
     </ul>
+    <!--affichage de la description-->
     <h5>DESCRIPTION</h5>
+    <p>{{card.description}}</p>
     <textarea name="" id="add-card-textarea-title" autofocus="" v-model="descriptionInput" placeholder="Ajouter une description à votre carte..."></textarea>
-      <div class="btn-group controls-add-card">
-        <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Add description</button>
-        <!--button type="button"  cols="60" rows="5" class="btn btn-light btn-cancel-add-card" @click="isAddingCard=false">cancel</button-->
-      </div>
+    <div class="btn-group controls-add-card">
+      <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Add</button>
+    </div>
+
+    <!--affichage de la checklist-->
     <h5>CHECKLIST</h5>
     <ul>
       <li>checklist 1</li>

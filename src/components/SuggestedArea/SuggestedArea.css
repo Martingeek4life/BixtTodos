@@ -8,6 +8,7 @@
   h5 {
     color: #172b4d;
     text-align: left;
+    /*overflow: scroll; */
   }
   li {
     height: 30px;

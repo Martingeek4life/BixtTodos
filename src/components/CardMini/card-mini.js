@@ -9,9 +9,11 @@ export default {
   },
   data () {
     return {
+      showModal: false
     }
   },
   methods: {
+    /*
     showModal () {
       var modal = document.getElementById('myModal')
       modal.style.display = 'block'
@@ -21,5 +23,6 @@ export default {
       var modal = document.getElementById('myModal')
       modal.style.display = 'none'
     }
+    */
   }
 }

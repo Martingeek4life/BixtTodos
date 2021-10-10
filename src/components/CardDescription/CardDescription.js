@@ -6,15 +6,11 @@ export default {
     }
   },
   props: {
-    // card: {type: Object, required: true}
     card: {type: Object, required: true}
   },
   components: {
     Suggested
   },
   methods: {
-    wanda () {
-      console.log('cardDescription: ' + this.card)
-    }
   }
 }

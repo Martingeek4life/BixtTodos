@@ -2,7 +2,8 @@ import SuggestedArea from '@/components/SuggestedArea/SuggestedArea.vue'
 export default {
   data () {
     return {
-      checklistName: ''
+      checklistName: '',
+      showChecklist: false
     }
   },
   props: {
@@ -12,20 +13,11 @@ export default {
     SuggestedArea
   },
   methods: {
-    showModalCheck () {
-      var modal = document.getElementById('myModalCheck')
-      // var btn = document.getElementById('myBtn')
-      modal.style.display = 'block'
-    },
-    hideModalCheck () {
-      var modal = document.getElementById('myModalCheck')
-      modal.style.display = 'none'
-    },
     addChecklist () {
+      alert('wanda')
       if (this.checklistName.length > 0) {
         this.card.addChecklist(this.checklistName)
-        alert('checklist mise à jour')
-        alert(this.card.checklists.title)
+        // alert(this.card.checklists.title)
       }
     }
   }
