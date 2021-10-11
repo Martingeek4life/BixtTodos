@@ -8,6 +8,7 @@
     .InputAA0 {
         box-sizing:border-box;
         display: flex;
+        padding: 2px;
         justify-content: center;
         align-items: center;
         width: 300px;
@@ -19,7 +20,6 @@
         box-sizing:border-box;
         padding: 7px;
         background-color: rgba(200,200,200,0);
-        border-radius: 0.2em;
         border: none;
         color: white;
         font-size: 15px;
@@ -42,6 +42,15 @@
         background-size: 100%;
         background-color: rgba(200,200,200,0);
         border-radius: 0.2em;
+    }
+    /* ----- responsive -----------------------------------------------*/
+    @media screen and (max-width: 600px){
+        .InputAA0 {
+            width:130px;
+        }
+        .InputAA0 input {
+            width:80px;
+        }
     }
 </style>
 <script>

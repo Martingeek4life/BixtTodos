@@ -1,5 +1,5 @@
 <template>
-  <div style = "background-color: lightblue; padding: 20px" >
+  <div style = "background-color: #EDEFF1; padding: 20px" >
   <ButtonA0 message = "somethiA0" img_src = "./image/setting.svg"/>
   <br>
   <ButtonA1 message = "somethiA1" img_src = "./image/setting.svg"/>

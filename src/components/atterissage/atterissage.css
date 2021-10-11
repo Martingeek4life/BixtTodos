@@ -12,14 +12,14 @@ header {
     display: flex;
 }
 .header_left {
-    width: 50%;
+    width: 60%;
     display: flex;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     align-items: center;
 }
 .header_right {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -31,13 +31,11 @@ header {
     margin-left: 3px;
 }
 .main_section {
-    margin-top: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .main_section .first_aside {
-    width: 231px;
     height: 900px;
 }
 .espace {
@@ -72,10 +70,12 @@ header {
 .gagne {
     margin-top: 1px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .gagne span {
+    width: 100%;
     margin-right: 8px;
     font-size: 15px;
     text-align: justify;
@@ -84,6 +84,7 @@ header {
 .tableau {
     display: flex;
     margin-top: 25px;
+    flex-wrap: wrap;
 }
 .tableau > div {
     margin-left: 10px;
@@ -131,6 +132,7 @@ header {
 .vos + div {
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
 
 }
 .vos + div > div {
