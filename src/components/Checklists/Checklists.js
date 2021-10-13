@@ -9,7 +9,8 @@ export default {
       isChecked: false,
       increasing_pct: 0,
       tasksSize: 0,
-      tasksDone: 0// {type: Number, required: true, default: 0}
+      tasksDone: 0,
+      index: 0// {type: Number, required: true, default: 0}
     }
   },
   props: {
@@ -33,7 +34,13 @@ export default {
       }
     },
     deleteChecklist (checklistElement) {
-      this.card.deleteChecklist(checklistElement)
+      for (let i = 0; i < this.card.checklists.length; i++) {
+        console.log('i: ' + i + 'checklistElement:  ' + checklistElement.title + '  this.card.checklists[i].title: ' + this.card.checklists[i].title)
+        if (checklistElement.title === this.card.checklists[i].title) {
+          this.card.deleteChecklist(i)
+        }
+      }
+      // alert('key:  ' + (checklistElement).indexOf)
     },
     changePercentValue (tasksSize, tasksDone) {
       this.tasksSize = tasksSize

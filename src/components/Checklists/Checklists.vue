@@ -23,7 +23,7 @@
 <template>
   <div>
     <h5>CHECKLISTS</h5>
-    <div v-for="checklistElement in this.card.checklists" :key="checklistElement.title">
+    <div v-for="checklistElement in this.card.checklists" :key="checklistElement.title" :index="checklistElement.index">
       <!--h5>checklist {{checklistElement.title}}</h5-->
       <span>checklist {{checklistElement.title}}</span>
       <span class="close-check" @click="deleteChecklist(checklistElement)">&times;</span>

@@ -36,7 +36,7 @@ export default {
               }
             }
             this.percent = (this.tasksDone * 100) / this.tasksSize
-            alert('size:  ' + this.tasksSize + 'done:   ' + this.tasksDone)
+            // alert('size:  ' + this.tasksSize + 'done:   ' + this.tasksDone)
             this.$emit('changePercent', this.tasksSize, this.tasksDone)
           }
         }
