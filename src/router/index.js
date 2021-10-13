@@ -2,12 +2,14 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import todolist from '@/components/todo'
+import Atterissage from '@/components/atterissage/Atterissage'
 import Accueil from '@/components/accueil/Accueil.vue'
 import Project from '@/components/Project/Project.vue'
 import Workspace from '@/components/Workspace/Workspace.vue'
 // import VueI18n from 'vue-i18n'
 
 // Vue.use(VueI18n)
+
 Vue.use(Router)
 
 export default new Router({
@@ -16,6 +18,11 @@ export default new Router({
       path: '/todolist',
       name: 'todolist',
       component: todolist
+    },
+    {
+      path: '/atterissage',
+      name: 'atterissage',
+      component: Atterissage
     },
     {
       path: '/',
