@@ -27,20 +27,26 @@
       <!--h5>checklist {{checklistElement.title}}</h5-->
       <span>checklist {{checklistElement.title}}</span>
       <span class="close-check" @click="deleteChecklist(checklistElement)">&times;</span>
-      <ProgressBar :card="card" :checklist="checklist" :checklistElement="checklistElement"></ProgressBar>
+
+      <!-- <div class="progress-bar" v-if="increasing_pct !== 0 && increasing_pct > 0">-->
+      <div class="progress-bar">
+        <progress-bar size="small" :val="increasing_pct" :text="increasing_pct + '%'" />
+      </div>
 
       <!--affichage des elements de la checklist-->
       <div v-for="task in checklistElement.tasks" :key="task.title">
         <form>
           <div>
-            <input type="checkbox" id="checklistItem" name="checklistItem" value="checklistItem">
-            <label for="checklistItem">{{task.title}}</label>
+            <!--input type="checkbox" id="checklistItem" name="checklistItem" value="checklistItem" @click="cheched(checklistElement,task)">
+            <label for="checklistItem">{{task.title}}</label-->
+            <input type="checkbox" @click="cheched(checklistElement,task)">
+            <label>{{task.title}}</label>
             <span class="close-check" @click="deleteTask(checklistElement,task)">&times;</span>
           </div>
         </form>
       </div>
       <!-- afficher le input pour ajout un element dans la checklist -->
-      <ChecklistItem :card="card" :checklist="checklist" :checklistElement="checklistElement"></ChecklistItem>
+      <ChecklistItem :card="card" :checklist="checklist" :checklistElement="checklistElement" @changePercent="changePercentValue"></ChecklistItem>
     </div>
   </div>
 </template>
