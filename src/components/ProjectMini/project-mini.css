@@ -1,0 +1,29 @@
+@import '../../styles/btn.css';
+
+.project-mini{
+	width: 200px;
+	height: 180px;
+	position: relative;
+}
+.project-mini:hover{
+	background: rgba(255, 255, 255, 0.4);
+}
+.project-mini-title{
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	padding: .5rem;
+	color: #fff;
+	font-size: 1em;
+}
+.project-mini-img{
+	width: 100%;
+	height: 100%;
+}
+.project-mini-img:hover{
+	filter: opacity(50%);
+	animation: ease-in;
+}

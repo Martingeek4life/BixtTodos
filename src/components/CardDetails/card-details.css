@@ -1,0 +1,12 @@
+.card-details-component {}
+.header-card {}
+.card-body {
+	display: flex;
+}
+
+.card-body .card-details{
+	flex-grow: 1;
+}
+.card-body .card-controls-btn{
+	width: fit-content;
+}

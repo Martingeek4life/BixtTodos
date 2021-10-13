@@ -1,0 +1,52 @@
+.list-card-component{
+	min-width: 250px;
+    margin: 5px;
+    padding: .5rem;
+    margin-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ebecf0;
+}
+.list-card-header{
+	padding: 0.8rem;
+}
+.count-cards{
+	margin-left: .5rem;
+}
+.title-list-cards{
+	font-weight: bold;
+	padding: 0.8rem 0.3rem;
+	margin: 0;
+}
+.cards{
+}
+.card{}
+
+.add-card{
+	margin: 0.8rem;
+}
+.add-card .show-add-card{
+	display: flex;
+}
+.add-card .show-add-card .btn-show-add-card{
+	flex-grow: 1;
+}
+
+.add-card .adding-card{}
+
+
+.adding-card textarea{
+	width: 100%;
+	resize: none;
+	height: fit-content;
+	min-height: 5rem;
+}
+.adding-card .controls-add-card{
+	width: 100%;
+}
+.controls-add-card .btn-add-card{}
+.controls-add-card .btn-add-cancel-add-card{}
+
+.draging-card{
+	cursor: move;
+}
