@@ -31,25 +31,6 @@
         <div><ButtonA2 message = "Paramètres" img_src = "./image/setting.svg"/></div>
     </aside>
     <aside class = "second_aside">
-      <div class = "modele"><img src = "./image/table-svgrepo.svg"/><span>Modèle les plus populaires</span></div>
-      <div class = "gagne">
-        <span>Gagné du temps avec un modèle de la comunauté Bixtrum</span>
-        <div><DropDownList/></div>
-      </div>
-      <div class = "tableau">
-        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
-        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
-        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
-      </div>
-      <div class = "decouvre">
-        <span>Découvrez la galerie de tous les modèles</span>
-      </div>
-      <div class = "recemment">
-        <img src = "./image/clock-svgrepo-com.svg" /><span>Récemment consultés</span>
-      </div>
-      <div>
-          <div><RectangleA0 img_src = "./image/bubble-animated-background.svg" message = "Bixterprise_tech"/></div>
-      </div>
       <div class = "vos">
       <span>VOS ESPACES DE TRAVAIL</span>
       </div>
@@ -65,6 +46,27 @@
       <div class="tableau">
           <div><RectangleA0 img_src = "./image/bubble-animated-background.svg" message = "Sans titre"/></div>
           <div><RectangleA2 img_src = "./image/background_new.png" message = "créer nouveau tableau" /></div>
+      </div>
+<!--  <div class = "modele"><img src = "./image/table-svgrepo.svg"/><span>Modèle les plus populaires</span></div>
+      <div class = "gagne">
+        <span>Gagné du temps avec un modèle de la comunauté Bixtrum</span>
+        <div><DropDownList/></div>
+      </div>
+      <div class = "tableau">
+        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
+        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
+        <div><RectangleA1 img_src = "./image/bubble-animated-background.svg" message0 ="Modèle" message = "conduite de projet"/></div>
+      </div>
+ -->
+
+      <div class = "decouvre">
+        <span>Découvrez la galerie de tous les modèles</span>
+      </div>
+      <div class = "recemment">
+        <img src = "./image/clock-svgrepo-com.svg" /><span>Récemment consultés</span>
+      </div>
+      <div>
+          <div><RectangleA0 img_src = "./image/bubble-animated-background.svg" message = "Bixterprise_tech"/></div>
       </div>
     </aside>
   </section>
