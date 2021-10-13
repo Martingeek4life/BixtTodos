@@ -7,7 +7,7 @@
 header {
     width: 100%;
     box-sizing: border-box;
-    background-color: #10345D;
+    background-color: #026AA7;
     padding: 5px;
     display: flex;
 }
@@ -35,6 +35,9 @@ header {
     justify-content: center;
     align-items: center;
 }
+.main_section .first_aside {
+    height: 900px;
+}
 .espace {
     display: flex;
     justify-content: center;
@@ -48,6 +51,7 @@ header {
     padding-left: 10px;
 }
 .second_aside {
+    height: 900px;
     margin: 15px;
     padding-top:50px;
     display: flex;
@@ -119,8 +123,7 @@ header {
     margin-left: 10px;
 }
 .vos {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 60px;
     color: rgb(44, 63, 96);
     font-size: 18px;
     font-weight: bold;

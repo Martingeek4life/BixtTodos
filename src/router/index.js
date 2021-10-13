@@ -4,7 +4,6 @@ import Router from 'vue-router'
 import todolist from '@/components/todo'
 import Atterissage from '@/components/atterissage/Atterissage'
 import Atterissage1 from '@/components/atterissage/Atterissage1'
-
 Vue.use(Router)
 
 export default new Router({

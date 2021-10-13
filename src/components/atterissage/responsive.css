@@ -5,7 +5,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         height: auto;
-        margin-top:25px;
+        margin-top:20px;
     }
     .main_section .first_aside > div {
         margin: 0px;
@@ -44,6 +44,6 @@
 @media screen and (max-width: 455px){
 
     .main_section .first_aside {
-        margin-top:60px;
+        margin-top:400px;
     }
 }
