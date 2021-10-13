@@ -1,5 +1,5 @@
 import ChecklistItem from '@/components/ChecklistItem/ChecklistItem.vue'
-import ProgressBar from '@/components/ChecklistItem/ProgressBar.vue'
+import ProgressBar from '@/components/ProgressBar/ProgressBar.vue'
 export default {
   data () {
     return {
