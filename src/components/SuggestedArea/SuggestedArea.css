@@ -33,3 +33,22 @@
   .btn-add-card {
     margin-left: 1%;
   }
+   
+  /* The Close Button */
+  .close-check {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    height: 5%;
+  }
+  .close-check:hover,
+  .close-check:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*
+  span {
+    background-color: rgb(105, 23, 23);
+  }
+  */

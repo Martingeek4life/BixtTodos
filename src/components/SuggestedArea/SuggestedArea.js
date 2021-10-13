@@ -2,7 +2,8 @@ import Checklists from '@/components/Checklists/Checklists.vue'
 export default {
   data () {
     return {
-      descriptionInput: ''
+      descriptionInput: '',
+      showTextArea: true
     }
   },
   props: {
@@ -16,10 +17,13 @@ export default {
     addDescription (descriptionInput) {
       if (this.descriptionInput.length > 0) {
         this.card.description = this.descriptionInput
-        console.log('description mise à jour')
+        this.showTextArea = false
       } else {
         console.log('description vide')
       }
+    },
+    cancelDescription () {
+      this.showTextArea = false
     }
   }
 }

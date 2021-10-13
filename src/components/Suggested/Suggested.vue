@@ -12,9 +12,9 @@
           <!-- button for show modal -->
           <li id="myBtnCheck" v-on:click="showChecklist = true">checklist</li>
             <!-- Modal content -->
-            <div class="modalContainer" v-if="showChecklist">
-              <span class="closeCheck" v-on:click="showChecklist = false">&times;</span>
-              <div class="headerChack">
+            <div class="modal-container" v-if="showChecklist">
+              <span class="close-check" v-on:click="showChecklist = false">&times;</span>
+              <div class="header-chack">
                 <h5>Add checklist</h5>
               </div>
               <form class="flex-grow-1">

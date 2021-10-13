@@ -6,12 +6,15 @@
     </ul>
     <!--affichage de la description-->
     <h5>DESCRIPTION</h5>
-    <p>{{card.description}}</p>
-    <textarea name="" id="add-card-textarea-title" autofocus="" v-model="descriptionInput" placeholder="Ajouter une description à votre carte..."></textarea>
-    <div class="btn-group controls-add-card">
-      <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Add</button>
+    <span>{{card.description}}</span>
+    <button type="button" class="btn btn-info btn-add-card" @click="showTextArea=true" v-if="!showTextArea">Modifier</button>
+    <div v-if="showTextArea">
+      <textarea name="" id="add-card-textarea-title" autofocus="" v-model="descriptionInput" placeholder="Ajouter une description à votre carte..."></textarea>
+      <div class="btn-group controls-add-card">
+        <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Ajouter</button>
+        <span class="close-check" @click="showTextArea=false">&times;</span>
+      </div>
     </div>
-
     <!--affichage de la checklist-->
     <Checklists :card="card" :checklist="checklist"></Checklists>
   </div>

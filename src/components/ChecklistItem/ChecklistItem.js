@@ -14,10 +14,21 @@ export default {
     // Suggested
   },
   methods: {
+    /*
     addItem () {
       if (this.checklistItem.length > 0) {
         this.showInput = false
         console.log(this.card.checklists)
+        // this.card.addChecklist(this.checklistName)
+      }
+    }
+    */
+    addItem () {
+      if (this.checklistItem.length > 0) {
+        this.checklist.addTask(this.checklistItem)
+        this.showInput = false
+        console.log(this.card.checklists)
+        this.checklistItem = ''
         // this.card.addChecklist(this.checklistName)
       }
     }

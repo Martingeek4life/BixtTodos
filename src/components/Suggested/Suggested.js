@@ -20,6 +20,7 @@ export default {
       if (this.checklistName.length > 0) {
         this.checklist = new Checklist(this.checklistName)
         this.card.addChecklists(this.checklist)
+        this.checklistName = ''
         console.log('ma checklist: ' + this.checklist.title)
       }
     }
