@@ -19,7 +19,7 @@
               </div>
               <form class="flex-grow-1">
                 <h6>Titre</h6>
-                <input type="text" class="input-checklist" v-model="checklistName" />
+                <input type="text" class="input-checklist" v-model="name" />
               </form>
               <button class="btn btn-primary border-5 ml-2"  @click="createChecklist()">Add</button>
             </div>

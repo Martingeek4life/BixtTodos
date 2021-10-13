@@ -4,6 +4,7 @@ export default {
   data () {
     return {
       checklistName: '',
+      name: '',
       showChecklist: false,
       checklist: {type: Object, required: true}
     }
@@ -17,6 +18,16 @@ export default {
   },
   methods: {
     createChecklist () {
+      if (this.name.length > 0) {
+        this.checklist = new Checklist(this.name)
+        this.card.addChecklists(this.checklist)
+        this.checklistName = this.name
+        this.name = ''
+        console.log('ma checklist: ' + this.checklist.title)
+      }
+    }
+    /*
+    createChecklist () {
       if (this.checklistName.length > 0) {
         this.checklist = new Checklist(this.checklistName)
         this.card.addChecklists(this.checklist)
@@ -24,5 +35,6 @@ export default {
         console.log('ma checklist: ' + this.checklist.title)
       }
     }
+    */
   }
 }

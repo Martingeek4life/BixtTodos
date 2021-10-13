@@ -21,9 +21,6 @@ export default {
       } else {
         console.log('description vide')
       }
-    },
-    cancelDescription () {
-      this.showTextArea = false
     }
   }
 }

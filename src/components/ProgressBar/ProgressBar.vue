@@ -24,11 +24,11 @@
   <div>
     <h5>CHECKLISTS</h5>
     <div v-for="checklistElement in this.card.checklists" :key="checklistElement.title">
-      <!--h5>checklist {{checklistElement.title}}</h5-->
-      <span>checklist {{checklistElement.title}}</span>
+      <h5>checklist {{checklistElement.title}}</h5>
       <span class="close-check" @click="deleteChecklist(checklistElement)">&times;</span>
-      <ProgressBar :card="card" :checklist="checklist" :checklistElement="checklistElement"></ProgressBar>
-
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
       <!--affichage des elements de la checklist-->
       <div v-for="task in checklistElement.tasks" :key="task.title">
         <form>
@@ -45,5 +45,5 @@
   </div>
 </template>
 
-<script src="./Checklists.js"></script>
-<style src="./Checklists.css" scoped></style>
+<script src="./ProgressBar.js"></script>
+<style src="./ProgressBar.css" scoped></style>

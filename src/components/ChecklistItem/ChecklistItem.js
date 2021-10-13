@@ -2,34 +2,29 @@
 export default {
   data () {
     return {
-      checklistItem: '',
+      task: '',
       showInput: false
     }
   },
   props: {
     card: {type: Object, required: true},
-    checklist: {type: Object, required: true}
+    checklist: {type: Object, required: true},
+    checklistElement: {type: Object, required: true}
   },
   components: {
     // Suggested
   },
   methods: {
-    /*
     addItem () {
-      if (this.checklistItem.length > 0) {
+      if (this.task.length > 0) {
+        for (let i = 0; i < this.card.checklists.length; i++) {
+          // console.log('if bsr: ' + i + '  checklistElement: ' + this.checklistElement.title + '  checklist: ' + this.checklist.title + '  checklist de la carte' + this.card.checklists[i].title)
+          if (this.checklistElement.title === this.card.checklists[i].title) {
+            this.card.checklists[i].addTask(this.task)
+          }
+        }
         this.showInput = false
-        console.log(this.card.checklists)
-        // this.card.addChecklist(this.checklistName)
-      }
-    }
-    */
-    addItem () {
-      if (this.checklistItem.length > 0) {
-        this.checklist.addTask(this.checklistItem)
-        this.showInput = false
-        console.log(this.card.checklists)
-        this.checklistItem = ''
-        // this.card.addChecklist(this.checklistName)
+        this.task = ''
       }
     }
   }
