@@ -4,22 +4,19 @@
     <ul>
       <li>join</li>
     </ul>
+    <!--affichage de la description-->
     <h5>DESCRIPTION</h5>
-    <h5>description: {{this.card.description}}</h5>
-    <textarea name="" id="add-card-textarea-title" autofocus="" cols="70" rows="5" v-model="descriptionInput" placeholder="Type title for a new card..."></textarea>
+    <span>{{card.description}}</span>
+    <button type="button" class="btn btn-info btn-add-card" @click="showTextArea=true" v-if="!showTextArea">Modifier</button>
+    <div v-if="showTextArea">
+      <textarea name="" id="add-card-textarea-title" autofocus="" v-model="descriptionInput" placeholder="Ajouter une description à votre carte..."></textarea>
       <div class="btn-group controls-add-card">
-        <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Add card</button>
-        <!--button type="button" class="btn btn-light btn-cancel-add-card" @click="isAddingCard=false">cancel</button-->
+        <button type="button" class="btn btn-info btn-add-card" @click="addDescription">Ajouter</button>
+        <span class="close-check" @click="showTextArea=false">&times;</span>
       </div>
-    <h5>CHECKLIST</h5>
-    <ul>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-      <li>checklist 1</li>
-    </ul>
+    </div>
+    <!--affichage de la checklist-->
+    <Checklists :card="card" :checklist="checklist"></Checklists>
   </div>
 </template>
 

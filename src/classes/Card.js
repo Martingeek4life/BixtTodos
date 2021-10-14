@@ -26,4 +26,8 @@ export default class Card {
   addChecklist (title) {
     this.checklists.push(new Checklist(title))
   }
+  /* ma fonction pour la checklist */
+  addChecklists (checklist) {
+    this.checklists.push(checklist)
+  }
 }

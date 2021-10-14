@@ -1,5 +1,6 @@
 import Suggested from '@/components/Suggested/Suggested.vue'
 export default {
+  name: 'CardDescription',
   data () {
     return {
     }
