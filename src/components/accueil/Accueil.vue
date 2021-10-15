@@ -29,7 +29,9 @@
     </div>
 </section>
 </template>
-<style src="./accueil.css">
-</style>
+
 <script src = "./accueil.js">
 </script>
+
+<style src="./accueil.css">
+</style>

@@ -1,0 +1,27 @@
+.table-component{}
+.title-table{}
+.list-lists{}
+.lists{
+	padding: 3rem;
+}
+.list{
+	/*margin: 1rem 1.5rem;*/
+}
+
+.add-list{}
+.show-add-list{}
+.adding-list{
+	margin: 0.5rem .8rem;
+}
+.controls-add-list{
+	margin: 0.8rem 0;
+	display: flex;
+	justify-content: space-around;
+}
+.btn-show-add-list{
+	min-width: 120px;
+	width: fit-content;
+}
+.add-list-input-title{}
+.btn-add-list{}
+.btn-cancel-add-list{}
