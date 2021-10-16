@@ -1,4 +1,5 @@
 import Checklists from '@/components/Checklists/Checklists.vue'
+import Members from '@/components/Members/Members.vue'
 export default {
   data () {
     return {
@@ -11,7 +12,8 @@ export default {
     checklist: {type: Object, required: true}
   },
   components: {
-    Checklists
+    Checklists,
+    Members
   },
   methods: {
     addDescription (descriptionInput) {

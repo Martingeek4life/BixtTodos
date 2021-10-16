@@ -1,0 +1,27 @@
+.members {
+}
+.nb-member {
+    float: right;
+}
+.member {
+  display: inline;
+  width: 90%;
+}
+.member-btn {
+  margin-left: 5px;
+  max-width: 50%;
+  overflow-y: hidden;
+}
+/* The Close Button */
+.delete-member {
+  color: #aaa;
+  float: right;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.delete-member:hover,
+.delete-member:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

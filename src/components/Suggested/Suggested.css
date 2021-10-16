@@ -11,9 +11,6 @@
     min-height: 90%;
     padding: 2%;
   }
-  h5 {
-    color: #172b4d;
-  }
   li {
     min-height: 35px;
     background-color: #d4daf0;
@@ -39,12 +36,33 @@
     z-index: 1;
 
   }
- 
+
+  .header-chack .header {
+    text-align: center;
+    border-bottom: 3px solid #888;
+  }
+  .title {
+    font-weight: bold;
+    color: #172b4d;
+  }
+  .center {
+    text-align: center;
+  }
+  .left {
+    text-align: left;
+    padding-top: 15%;
+  }
+  .input-checklist {
+    width: 95%;
+    height: 20px;
+    padding: -15px;
+    margin-bottom: 3px;
+  }
   /* The Close Button */
   .close-check {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     height: 5%;
   }
@@ -54,19 +72,9 @@
     text-decoration: none;
     cursor: pointer;
   }
-  .header-chack h5 {
-    height: 10%;
-    color: #172b4d;
-    text-align: center;
-    border-bottom: 3px solid #888;
-  }
-  h6 {
-    color: #172b4d;
-    text-align: left;
-  }
-  .input-checklist {
-    width: 95%;
-    height: 10%;
-    padding: 5px;
-    margin-bottom: 3px;
+  .btn-modal:hover,
+  .btn-modal:focus {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
   }

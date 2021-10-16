@@ -30,4 +30,10 @@ export default class Card {
   addChecklists (checklist) {
     this.checklists.push(checklist)
   }
+  addMember (member) {
+    this.members.push(member)
+  }
+  deleteMember (i) {
+    this.members.splice(i, 1)
+  }
 }

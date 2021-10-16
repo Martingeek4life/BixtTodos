@@ -43,7 +43,7 @@
   }
   .close-check:hover,
   .close-check:focus {
-    color: red;
+    color: black;
     text-decoration: none;
     cursor: pointer;
   }

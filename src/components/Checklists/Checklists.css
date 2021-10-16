@@ -1,8 +1,4 @@
 
-h5 {
-  color: #172b4d;
-  text-align: left;
-}
 li {
   min-height: 30px;
   background-color: #d4daf0;
@@ -14,17 +10,28 @@ li {
   padding-right: 10px;
   margin-left: -7%;
 }
-/*
-.modalContainer {
-  display: block;
-  width: 20%;
-  height: 30%;
-  overflow: auto; 
-  margin-left: 2%;
-  padding: 1%;
-  background-color: #fff;
-  border: 1px solid #888;
-  position: fixed;
-  z-index: 1;
+.checklist-title {
+  display: inline-block;
+  font-weight: bold;
+  color: #172b4d;
+  text-align: left;
 }
-  */
+.checklist-button {
+  float: right;
+}
+.progress-bar {
+  margin-top: 10px;
+}
+
+/* The Close Button */
+.close-task {
+  float: right;
+  color: #aaa;
+}
+
+.close-task:hover,
+.close-task:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}  
