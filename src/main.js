@@ -3,16 +3,29 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueI18n from 'vue-i18n'
+import en from './locales/en.json'
+import fr from './locales/fr.json'
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import i18n from './i18n'
 
 Vue.config.productionTip = false
-
+Vue.use(VueI18n)
 /* eslint-disable no-new */
+
+const messages = {
+  en,
+  fr
+}
+
+const i18n = new VueI18n({
+  locale: 'fr',
+  messages
+})
 new Vue({
   el: '#app',
   router,
-  // i18n,
+  i18n,
   components: { App },
   template: '<App/>'
 })

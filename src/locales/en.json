@@ -1,6 +1,20 @@
 {
-    "hello": "Hello i18n in SFC!",
-    "welcome": "Welcome!",
-    "yes-button": "Yes",
-    "no-button": "No!"
+    "logIn": {
+        "value": "Log in"
+    },
+    "signUp": {
+        "value": "Sign up!"
+    },
+    "headLine": {
+        "value":"This service help team work move forward." 
+    },
+    "mainText" : {
+        "value": "collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with Trello."
+    },
+    "signFree" : {
+        "value": "sign up it's free!"
+    },
+    "copyright": {
+        "value":"© Copyright 2021. All rights reserved."
+    }
 }

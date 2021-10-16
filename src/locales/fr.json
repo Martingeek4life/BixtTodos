@@ -1,0 +1,20 @@
+{
+    "logIn": {
+        "value": "Connexion"
+    },
+    "signUp": {
+        "value": "S'inscrire ! "
+    },
+    "headLine": {
+        "value":"Ce service permet d'augmenter la productivité de votre équipe." 
+    },
+    "mainText" : {
+        "value": "Collaborez, gérez des projects, et atteignez un nouveau pic de productivitté. Des immeubles de grande hauteur au bureau à domicile, la façon dont votre équipe travaille est unique. Réalisez tout avec Bixtrum."
+    },
+    "signFree" : {
+        "value": "Inscription gratuite"
+    },
+    "copyright": {
+        "value":"© Copyright 2021. Tous les droits réservés."
+    }
+}

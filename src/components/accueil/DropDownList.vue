@@ -1,9 +1,23 @@
 <template>
-    <select class = "DropDownList">
-        <option> English </option>
-        <option> French </option>
+    <select class = "DropDownList" v-model="$i18n.locale">
+        <option
+            v-for="(lang, i) in langs"
+            :key="`lang-${i}`"
+            :value="lang"
+            >
+            {{ lang }}
+        </option>
     </select>
 </template>
+<script>
+export default {
+  name: 'switchLocale',
+  data () {
+    return { langs: ['en', 'fr'] }
+  }
+}
+</script>
+
 <style>
     .DropDownList {
         box-sizing:border-box;

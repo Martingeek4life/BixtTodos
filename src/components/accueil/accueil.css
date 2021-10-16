@@ -3,7 +3,7 @@
     top:0%;
     left:0%;
     width:100%;
-    background-image:linear-gradient(to bottom, #EAE6FF, #F7F5FF);
+    background-color: #FFFFFF
 }
 .accueil header {
     padding: 14px;
@@ -55,7 +55,8 @@
 .first_text {
     width: 90%;
     font-size: 51px;
-    line-height: 52px;
+    line-height: 55px;
+    white-space:pre-wrap;
 }
 .first_text + div {
     width: 90%;
@@ -74,4 +75,5 @@
 footer {
     margin-top:160px;
     margin-bottom:25px;
+    text-align: center;
 }
