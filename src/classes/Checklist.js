@@ -37,4 +37,8 @@ export default class Checklist {
   addTask (title) {
     this.tasks.push(new Task(title))
   }
+
+  deleteTask (i) {
+    this.tasks.splice(i, 1)
+  }
 }

@@ -1,16 +1,19 @@
 .suggested-area {
-    /* background-color: rgb(245, 230, 164); */
+  /*
+    background-color: rgb(245, 230, 164);
+    */
+    min-height: 90%;
     width: 70%;
-    height: 90%;
     padding-left: 10px;
     padding-right: 10px;
   }
   h5 {
     color: #172b4d;
     text-align: left;
+    /*overflow: scroll; */
   }
   li {
-    height: 30px;
+    min-height: 30px;
     background-color: #d4daf0;
     list-style: none;
     text-align: left;
@@ -18,5 +21,34 @@
     line-height: 30px;
     padding-left: 10px;
     padding-right: 10px;
-
+    margin-left: -7%;
   }
+  #add-card-textarea-title {
+    width: 95%;
+    height: 10%;
+    margin-left: 1%;
+    padding: 5px;
+    margin-bottom: 3px;
+  }
+  .btn-add-card {
+    margin-left: 1%;
+  }
+   
+  /* The Close Button */
+  .close-check {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    height: 5%;
+  }
+  .close-check:hover,
+  .close-check:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*
+  span {
+    background-color: rgb(105, 23, 23);
+  }
+  */

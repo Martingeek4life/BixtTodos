@@ -23,9 +23,12 @@ export default {
   },
   methods: {
     addCard (event) {
+      this.list.addCard(event)
+      /*
       this.list.addCard(this.newCardTitle)
       this.isAddingCard = false
       this.newCardTitle = ''
+      */
     },
     onDrop (event) {
       console.log('drop card with event:', event)

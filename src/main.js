@@ -6,6 +6,9 @@ import router from './router'
 import VueI18n from 'vue-i18n'
 import en from './locales/en.json'
 import fr from './locales/fr.json'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import i18n from './i18n'
+
 Vue.config.productionTip = false
 Vue.use(VueI18n)
 /* eslint-disable no-new */

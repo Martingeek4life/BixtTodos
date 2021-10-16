@@ -9,17 +9,20 @@ export default {
   },
   data () {
     return {
+      showModal: false
     }
   },
   methods: {
+    /*
     showModal () {
       var modal = document.getElementById('myModal')
-      // var btn = document.getElementById('myBtn')
       modal.style.display = 'block'
+      console.log('cardMini: ' + this.card.title)
     },
     hideModal () {
       var modal = document.getElementById('myModal')
       modal.style.display = 'none'
     }
+    */
   }
 }

@@ -6,31 +6,29 @@
           <li>join</li>
         </ul>
         <h5>ADD TO CARD</h5>
-        <ul>
+        <ul class="suggestedList">
           <li>members</li>
           <li>labels</li>
           <!-- button for show modal -->
-          <li id="myBtnCheck" v-on:click="showModalCheck()">checklist</li>
-            <!-- Modal content
-              <button class="btn btn-outline-primary border-0 ml-2"  @click="addChecklist()">Add</button>
-            -->
-            <div  id="myModalCheck" class="modalContainer">
-              <span class="closeCheck" v-on:click="hideModalCheck()">&times;</span>
-              <div class="headerChack">
+          <li id="myBtnCheck" v-on:click="showChecklist = true">checklist</li>
+            <!-- Modal content -->
+            <div class="modal-container" v-if="showChecklist">
+              <span class="close-check" v-on:click="showChecklist = false">&times;</span>
+              <div class="header-chack">
                 <h5>Add checklist</h5>
               </div>
               <form class="flex-grow-1">
                 <h6>Titre</h6>
-                <input type="text" class="form-control" v-model="checklistName" />
+                <input type="text" class="input-checklist" v-model="name" />
               </form>
-              <button class="btn btn-primary border-5 ml-2"  @click="addChecklist()">Add</button>
+              <button class="btn btn-primary border-5 ml-2"  @click="createChecklist()">Add</button>
             </div>
           <li>Dates</li>
           <li>attachment</li>
           <li>cover</li>
         </ul>
       </div>
-      <SuggestedArea :card="card"></SuggestedArea>
+      <SuggestedArea :card="card" :checklist="checklist"></SuggestedArea>
     </div>
 </template>
 <script src="./Suggested.js"></script>

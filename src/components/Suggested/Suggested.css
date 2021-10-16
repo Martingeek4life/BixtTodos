@@ -1,19 +1,21 @@
   .suggested-space {
-    /* background-color: rgb(10, 4, 102); */
-    height: 100%;
+    /* background-color: rgb(10, 4, 102);*/
+    min-height: 100%;
     display: flex;
     flex-direction: row-reverse;
   }
   .suggested {
-    /* background-color: rgb(243, 187, 234); */
+    /*
+    background-color: rgb(243, 187, 234);*/
     width: 30%;
-    height: 90%;
+    min-height: 90%;
+    padding: 2%;
   }
   h5 {
     color: #172b4d;
   }
   li {
-    height: 35px;
+    min-height: 35px;
     background-color: #d4daf0;
     list-style: none;
     text-align: left;
@@ -21,12 +23,13 @@
     line-height: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: -20%;
   }
-  .modalContainer {
-    display: none; /* Hidden by default */
+  .modal-container {
+    display: block;
     width: 20%; /* Full width */
-    height: 30%; /* Full height */
-    overflow: auto; 
+    min-height: 30%; /* Full height 
+    overflow: auto; */
     margin-left: 2%;
     padding: 1%;
     /* background-color: #ebecf0; */
@@ -38,20 +41,20 @@
   }
  
   /* The Close Button */
-  .closeCheck {
+  .close-check {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
     height: 5%;
   }
-  .closeCheck:hover,
-  .closeCheck:focus {
+  .close-check:hover,
+  .close-check:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
   }
-  .headerChack h5 {
+  .header-chack h5 {
     height: 10%;
     color: #172b4d;
     text-align: center;
@@ -60,4 +63,10 @@
   h6 {
     color: #172b4d;
     text-align: left;
+  }
+  .input-checklist {
+    width: 95%;
+    height: 10%;
+    padding: 5px;
+    margin-bottom: 3px;
   }

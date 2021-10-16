@@ -1,4 +1,5 @@
-import Table from '@/classes/Table'
+// import Table from '@/classes/Table'
+import Project from '@/classes/Project'
 import List from '@/classes/List'
 import ListCard from '@/components/ListCard/ListCard.vue'
 import AddItem from '@/components/AddItem/AddItem'
@@ -12,7 +13,7 @@ export default {
       type: Object,
       required: false,
       default () {
-        return new Table()
+        return new Project()
       }
     }
   },

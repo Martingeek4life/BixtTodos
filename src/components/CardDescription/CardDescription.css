@@ -1,15 +1,16 @@
-.headerModal{
-  /*background-color: white;*/
-  height: 10%;
+.header-modal{
+  /*background-color: white;
+  min-height: 10%;*/
 }
 .details-space {
-  height: 100%;
-  /* background-color: rgb(247, 97, 209); */
+  /*   min-height: 100%;
+  background-color: rgb(247, 97, 209); */
 }
-h2 {
+h1, h2{
   color: #172b4d;
-  height: 50%;
   margin-top: auto;
   margin-bottom: auto;
+  text-align: center;
+  padding-bottom: 10px;
   /* background-color: rgb(247, 97, 209); */
 }

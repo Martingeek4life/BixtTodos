@@ -1,23 +1,25 @@
-// import Suggested from '@/components/Suggested/Suggested.vue'
+import Checklists from '@/components/Checklists/Checklists.vue'
 export default {
   data () {
     return {
-      descriptionInput: ''
+      descriptionInput: '',
+      showTextArea: true
     }
   },
   props: {
-    card: {type: Object, required: true}
+    card: {type: Object, required: true},
+    checklist: {type: Object, required: true}
   },
   components: {
-    // Suggested
+    Checklists
   },
   methods: {
     addDescription (descriptionInput) {
       if (this.descriptionInput.length > 0) {
         this.card.description = this.descriptionInput
-        alert('description mise à jour')
+        this.showTextArea = false
       } else {
-        alert('description vide')
+        console.log('description vide')
       }
     }
   }
