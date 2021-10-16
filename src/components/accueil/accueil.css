@@ -55,7 +55,8 @@
 .first_text {
     width: 90%;
     font-size: 51px;
-    line-height: 52px;
+    line-height: 55px;
+    white-space:pre-wrap;
 }
 .first_text + div {
     width: 90%;
@@ -74,4 +75,5 @@
 footer {
     margin-top:160px;
     margin-bottom:25px;
+    text-align: center;
 }

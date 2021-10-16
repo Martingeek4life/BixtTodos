@@ -11,20 +11,20 @@
         </div>
         <div class = "sign_log">
             <DropDownList/>
-            <Button1 message = "Log in" />
-            <Button message = "Sign up" />
+            <Button1  :message = "$t('logIn.value')" />
+            <Button :message = "$t('signUp.value')" />
         </div>
     </header>
     <div class="main">
         <section class = "main_section">
             <form method = "post" class = "first_aside" >
-                <div class="first_text">This service help team work move forward.</div>
-                <div>collaborate, manage projects, and reach new productivity peaks. From high rises to the home office, the way your team works is unique—accomplish it all with Trello.</div>
+                <div class="first_text">{{ $t('headLine.value') }} </div>
+                <div> {{ $t('mainText.value') }} </div>
             </form>
-            <div class = "email" ><Input/><Button2 message= "sign up it's free!"/></div>
+            <div class = "email" ><Input/><Button2 :message= "$t('signFree.value')" /></div>
         </section>
         <footer>
-            © Copyright 2021. All rights reserved.
+            {{ $t('copyright.value') }}
         </footer>
     </div>
 </section>
